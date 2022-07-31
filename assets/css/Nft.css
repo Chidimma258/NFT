@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+.btn-digital{
+  border-radius: 1rem;
+  position: absolute;
+  left: 0;
+}
+.txt-digital{
+  position: absolute;
+  right: 0;
+}
+.nav-link{
+  color: black!important;
+}
+.nav-brand{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+.nav-item:hover::after{
+  width: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.gradient1-img{
+  right: 0;
+}
+
+.trophy-bg{
+  border-radius: 5px;
+}
+
+.trophy-bg2{
+  border-radius: 5px;
+  background: crimson;
+}
+
+.trophy-bg3{
+  border-radius: 5px;
+  background: rgb(11, 129, 138);
+}
+
+.trophy-bg4{
+  border-radius: 5px;
+  background: orangered;
+}
+.gradient1-blue{
+  bottom: 56px;
+  right: 0;
+  bottom: 0;
+}
+
+
+.wish-img{
+  position: absolute;
+   right: 0;
+  top: 6px;
+}
+
+.btn-explore{
+  border-radius: 1rem;
+}
+
+.img-line{
+  width: 100%;
+}
+
+
+.sub-btn{
+  border-radius: 1rem;
+}
+
+ 
+.navbar-toggler{
+  box-shadow: unset!important;
+} 
+
+.sectionA{
+  height: 90%;
+  width: 100%;
+  background: linear-gradient(to right, rgb(247, 214, 219) 50%, rgb(93, 200, 219) 100%)
+}
+
+.txt-hero{
+  position: absolute;
+  font-weight: bolder;
+  font-size: 19rem;
+  z-index: 0;
+  opacity: 0.4;
+  top: 210px;
+}
+.tp-btn,
+.top-btn{
+  border-radius: 2rem;
+}
+
+.cd-card{
+ border-top-left-radius: 4rem;
+ border-bottom-right-radius: 4rem;
+}
+
+.sectionF{
+  padding: 3rem;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(9, 9, 100);
+
+}
+
+.footer-txt{
+  color: white!important;
+}
+
+.footer-gradient-1{
+right: 0;
+}
+
+.info-btn{
+  background:linear-gradient(to right,rgb(240, 26, 62) 50%, rgb(255, 81, 0) 100%);
+  border-radius: 2rem;
+}
+
+.btn-bid{
+  background:linear-gradient(to right,rgb(240, 26, 62) 50%, rgb(255, 81, 0) 100%);
+  border-radius: 2rem;
+}
+.ape-img{
+  border-radius: 1rem;
+}
+
+.time-im{
+    display: flex;
+    object-fit: none;
+    align-self: center;
+    position: absolute;
+    bottom: 110px;
+    border-radius: 7px;
+}
+.navbar{
+  position: fixed;
+}
+.counter-btn{
+  background:linear-gradient(to right,rgb(240, 26, 62) 50%, rgb(255, 81, 0) 100%);
+  border-radius: 2rem;
+  position: absolute;
+  margin-left: 1rem;
+  bottom: 210px;
+}
+.medal-img {
+  position: absolute;
+  top: 150px;
+}
+.info-sec{
+  border-radius: 2rem;
+  color: rgb(240, 26, 62);
+}
+
+.hero-1{
+  /* background: white; */
+  position: relative;
+  /* width: 100%; */
+}
+.gradient-mix{
+  /* background: white; */
+  position: relative;
+  /* width: 100%; */
+}
+.grad-mix{
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.grad-mixr{
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  right: 0;
+}
+
+.grad-D{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  right: 0;
+}
+.section-F{
+  background: rgb(1, 1, 77);
+}
+.span-hero{
+  color: rgb(240, 26, 62);
+}
+
+.grd-blue{
+  top: 380px;
+}
+.tc-px{
+    position: absolute;
+    top: 420px;
+    right: 440px;
+}
+
+.tc-img{
+  position: absolute;
+    right: 20px;
+    top: 75px;
+}
+
+.img-dis{
+  border-radius: 2rem;
+}
+
+.txt-blue{
+  color: rgb(41, 231, 212);
+}
+
+.wallet-icon{
+  cursor: pointer;
+ border-radius: 2rem;
+ border-color:blue ;
+border: 2px solid;
+}
+.sectionZ{
+  padding:1rem;
+  margin: none;
+  height: 100%;
+  width: 100%;
+  
+}
+.nft-img{
+  height: 345px;
+  border-radius: 7px;
+}
+.s-im{
+  width: 230px;
+}
+.logo-txt{
+  color: rgb(243, 67, 2);
+}
+.seven-txt{
+  color: rgb(238, 142, 52);
+}
+.seven-tx{
+  color: rgb(31, 78, 233);
+}
+.s-btn{
+  display: flex;
+  align-self: center;
+}
+
+@media(max-width: 678px){
+   .txt-h{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 10rem;
+    z-index: 0;
+    opacity: 0.4;
+    top: 210px;
+  } 
+}
+
+    
+  
